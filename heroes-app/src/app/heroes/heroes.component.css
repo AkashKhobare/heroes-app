@@ -1,0 +1,34 @@
+* {
+    color: rgb(58, 119, 199);
+}
+
+.heroes-container {
+    width: 60rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.heroes {
+    margin: 0;
+} 
+
+.heroes > li {
+    list-style: none;
+    height: 2rem;
+    width: 20rem;
+    display: flex;
+    align-items: center;
+    padding-left: 0.5rem;
+    transition: all 0.2s;
+}
+
+.heroes > li:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(158, 174, 196);
+    cursor: pointer;
+}
+
+.selected {
+    color: rgb(255, 255, 255);
+    background-color: rgb(158, 174, 196);
+}
