@@ -1,7 +1,7 @@
 <div class="heroes-container">
     <ul class="heroes">
         <h2>My Heroes</h2>
-        <li *ngFor="let hero of heroes"
+        <li *ngFor="let hero of heroes | async"
             [class.selected]="hero === selectedHero" 
             (click)="onSelect(hero)">
             {{hero.name}}
