@@ -1,4 +1,4 @@
-Repository to contain all angular projects.
+Repository to contain all Angular projects.
 
 There is a seperate branch for each project.
 
